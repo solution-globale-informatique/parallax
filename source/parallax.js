@@ -199,7 +199,7 @@
   Parallax.prototype.orientationSupport = !!window.DeviceOrientationEvent;
   Parallax.prototype.orientationStatus = 0;
   Parallax.prototype.transform2DSupport = Parallax.prototype.transformSupport('2D');
-  Parallax.prototype.transform3DSupport = Parallax.prototype.transformSupport('3D');
+  Parallax.prototype.transform3DSupport = null; //Parallax.prototype.transformSupport('3D');
 
   Parallax.prototype.initialise = function() {
 
